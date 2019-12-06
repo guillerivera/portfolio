@@ -1,0 +1,170 @@
+
+@font-face
+{
+    src: url("../fonts/Raleway-Regular.ttf");
+    font-family: timenow;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.title{
+    font-size: 110px;
+    width: 70%;
+    font-family: timenow;
+margin: 0%;
+position: absolute;
+z-index: 1;
+margin-left: 4%;
+}
+
+
+.bluebox{
+    display: flex;
+height: 20vh;
+margin: 0;
+align-items: flex-start;
+position: relative;
+top: 330px;
+}
+
+.bluebox img {
+    max-height: 190%;
+    height: 50vh;
+}
+
+.littlebox{
+position: relative;
+top: 550px;
+}
+
+.skills{
+
+    padding-top: 15%;
+
+}
+
+h2{
+    font-family: timenow;
+    font-size: 50px;
+   
+}
+
+.skills-title{
+    margin-top: 3%;
+     font: size 30px;
+     margin-left: 4%;
+     width: 50vh;
+}
+
+.name{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.about-title{
+    margin-top: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3{
+    text-align: right;
+    font-family: timenow;
+    font-size: 30px;
+   /* margin-left: 10%;*/
+    /* width: 80vh; */
+    margin-top: 5%;
+    margin-right: 50px;
+    line-height: 160%;
+
+}
+
+.projectos{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15%;
+}
+
+.mobileimagen{
+    width: 100%;
+    margin-top: 20%;
+    
+
+}
+
+.guillefiguraBeamen{
+    width: 100%;
+    height: 100vh;
+    background-color:#738290;
+}
+
+.mobileimagen{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.proyecto1 {
+    width: 50%;
+    padding-left: 10%;
+    padding-top:5%;
+
+}
+
+.proyecto1 h2{
+    color:white;
+    font-size: 60px;
+
+
+}
+.proyecto1 p{
+    font-size: 30px;
+    font-family: timenow;
+margin-top: 10%;
+padding-right: 30%;
+color: white;
+line-height: 160%;
+}
+
+.proyecto1 h3{
+display: flex;
+justify-content: left;
+font-size: 22px;
+}
+
+.footer{
+    background-color: rgb(24, 22, 22);
+    height: 40vh;
+    width: 100%;
+    color: orange;
+    
+
+}
+
+.callme img {
+    width: 40px;
+    height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 10%;
+}
+
+.callme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
